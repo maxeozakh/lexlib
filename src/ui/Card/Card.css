@@ -1,0 +1,15 @@
+.card {
+  border: 1px solid lightgray;
+  padding: 2em;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    padding: 1em;
+    flex-direction: column;
+  }
+
+  .timestampWrapper {
+    margin-top: 1em;
+  }
+}
